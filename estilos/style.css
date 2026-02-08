@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 *{
     margin: 0px;
     padding: 0px;
@@ -25,12 +24,20 @@ main{
 }
 
 section#telefone{
-    height: 613px;
-    width: 291px;
+    height: 627px;
+    width: 311px;
     background-color: azure;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: url("../imagens/blue-smartphone-mockup-blank-screen-isolated-on-transparent-background-smartphone-mockup-frame-free-png.png") no-repeat;
+    background: url("../imagens/frame-iphone.png") no-repeat;
+}
+
+#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 472px;
+    width: 268px;
 }
